@@ -1,3 +1,3 @@
-### diamond.pas
+### diamond
 draws simple diamond   
-![diamond](https://github.com/trosck/Pascal/blob/main/images/diamond.png?raw=true)
+![diamond](https://github.com/trosck/Pascal/blob/main/diamond/diamond.png?raw=true)
