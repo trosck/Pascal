@@ -6,7 +6,7 @@ begin
   for i := 1 to count do write(' ');
 end;
 
-procedure PrintLineOfDimond(lineNumber, halfHeight: integer);
+procedure PrintLineOfDiamonds(lineNumber, halfHeight: integer);
 begin
   PrintSpaces(halfHeight - lineNumber + 1);
   write('*');
@@ -27,12 +27,12 @@ begin
   halfHeight := diamondHeight div 2;
 
   for currentLine := 1 to halfHeight + 1 do begin
-    PrintLineOfDimond(currentLine, halfHeight);
+    PrintLineOfDiamonds(currentLine, halfHeight);
     writeln();
   end;
 
   for currentLine := halfHeight downto 1 do begin
-    PrintLineOfDimond(currentLine, halfHeight);
+    PrintLineOfDiamonds(currentLine, halfHeight);
     writeln();
   end;
 
