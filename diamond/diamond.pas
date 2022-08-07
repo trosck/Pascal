@@ -1,5 +1,4 @@
 program diamond;
-uses crt;
 
 procedure PrintSpaces(count: integer);
 var i: integer;
