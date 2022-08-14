@@ -7,5 +7,6 @@
 in all directories already has binaries for linux x86-64
 
 ### diamond
-draws simple diamond   
+draws simple diamond
+
 ![diamond](https://github.com/trosck/Pascal/blob/main/diamond/diamond.png?raw=true)
